@@ -108,7 +108,7 @@ export const Item = styled.li`
     font-weight: 600;
     font-size: 35px;
     line-height: 24px;
-    font-family: "Dancing Script", cursive;
+    font-family: "Roboto", sans-serif;
     text-decoration-line: ${(props) => (props.checked ? "line-through" : "")};
     color: ${(props) => (props.checked ? "#ffffff" : "#19376d")};
 
